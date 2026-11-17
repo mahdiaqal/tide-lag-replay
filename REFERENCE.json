@@ -1,0 +1,279 @@
+{
+  "2023-01-15": {
+    "schema": "tide-lag/1",
+    "station": 9414290,
+    "utc_day": "2023-01-15",
+    "datum": "MLLW",
+    "sources": [
+      "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date=20230115&end_date=20230115&station=9414290&datum=MLLW&units=metric&time_zone=gmt&format=json&application=TideLagReplay&product=water_level",
+      "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date=20230115&end_date=20230115&station=9414290&datum=MLLW&units=metric&time_zone=gmt&format=json&application=TideLagReplay&product=predictions&interval=6"
+    ],
+    "observed_sha256": "e82fd60cdf6fa2f6c5d83fd173e3426ec0281ed61a3e3aa711225035c38a1cf3",
+    "predicted_sha256": "b24a56a34b16da963df655750b329affa8436bc9dc07625da7d305ca475394fe",
+    "verified_samples": 240,
+    "status": "DIFFERENT_HALVES",
+    "lag_minutes": null,
+    "scores": [
+      [
+        -60,
+        126898989,
+        287133624
+      ],
+      [
+        -54,
+        98027729,
+        245127209
+      ],
+      [
+        -48,
+        73614801,
+        207531444
+      ],
+      [
+        -42,
+        53863905,
+        174354561
+      ],
+      [
+        -36,
+        38884764,
+        145581244
+      ],
+      [
+        -30,
+        28804520,
+        121264556
+      ],
+      [
+        -24,
+        23723941,
+        101414040
+      ],
+      [
+        -18,
+        23710821,
+        86091440
+      ],
+      [
+        -12,
+        28823189,
+        75291400
+      ],
+      [
+        -6,
+        39109476,
+        69078369
+      ],
+      [
+        0,
+        54535796,
+        67445021
+      ],
+      [
+        6,
+        75107736,
+        70463381
+      ],
+      [
+        12,
+        100789696,
+        78172564
+      ],
+      [
+        18,
+        131522896,
+        90602265
+      ],
+      [
+        24,
+        167216276,
+        107792049
+      ],
+      [
+        30,
+        207749189,
+        129769076
+      ],
+      [
+        36,
+        252998864,
+        156568940
+      ],
+      [
+        42,
+        302851689,
+        188167584
+      ],
+      [
+        48,
+        357029581,
+        224674281
+      ],
+      [
+        54,
+        415377949,
+        266076709
+      ],
+      [
+        60,
+        477678924,
+        312297160
+      ]
+    ],
+    "best_lags_by_half": [
+      [
+        -18
+      ],
+      [
+        0
+      ]
+    ]
+  },
+  "2025-01-15": {
+    "schema": "tide-lag/1",
+    "station": 9414290,
+    "utc_day": "2025-01-15",
+    "datum": "MLLW",
+    "sources": [
+      "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date=20250115&end_date=20250115&station=9414290&datum=MLLW&units=metric&time_zone=gmt&format=json&application=TideLagReplay&product=water_level",
+      "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date=20250115&end_date=20250115&station=9414290&datum=MLLW&units=metric&time_zone=gmt&format=json&application=TideLagReplay&product=predictions&interval=6"
+    ],
+    "observed_sha256": "569c876f005ed425d564735b61997f1e46ee23e22a0bfe476aa17ad4df2c6f2a",
+    "predicted_sha256": "233e9a2705bb059001f621822d3f4c6da76823872387fa41d0cffc1b5ca8cf31",
+    "verified_samples": 240,
+    "status": "CONSISTENT_LAG",
+    "lag_minutes": -6,
+    "scores": [
+      [
+        -60,
+        510924064,
+        473859436
+      ],
+      [
+        -54,
+        405920624,
+        381462836
+      ],
+      [
+        -48,
+        313596344,
+        297520145
+      ],
+      [
+        -42,
+        233641784,
+        222701424
+      ],
+      [
+        -36,
+        165968945,
+        157798145
+      ],
+      [
+        -30,
+        110441905,
+        103427629
+      ],
+      [
+        -24,
+        66972916,
+        60342996
+      ],
+      [
+        -18,
+        35485881,
+        29304616
+      ],
+      [
+        -12,
+        15978816,
+        10996409
+      ],
+      [
+        -6,
+        8403744,
+        6097016
+      ],
+      [
+        0,
+        12776840,
+        15302729
+      ],
+      [
+        6,
+        29087044,
+        39256829
+      ],
+      [
+        12,
+        57364764,
+        78607161
+      ],
+      [
+        18,
+        97565540,
+        133942624
+      ],
+      [
+        24,
+        149708160,
+        205851961
+      ],
+      [
+        30,
+        213748061,
+        294818900
+      ],
+      [
+        36,
+        289645036,
+        401330404
+      ],
+      [
+        42,
+        377335584,
+        525738165
+      ],
+      [
+        48,
+        476722620,
+        668447936
+      ],
+      [
+        54,
+        587663845,
+        829733484
+      ],
+      [
+        60,
+        710042156,
+        1009743176
+      ]
+    ],
+    "best_lags_by_half": [
+      [
+        -6
+      ],
+      [
+        -6
+      ]
+    ]
+  },
+  "2024-01-15": {
+    "schema": "tide-lag/1",
+    "station": 9414290,
+    "utc_day": "2024-01-15",
+    "datum": "MLLW",
+    "sources": [
+      "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date=20240115&end_date=20240115&station=9414290&datum=MLLW&units=metric&time_zone=gmt&format=json&application=TideLagReplay&product=water_level",
+      "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date=20240115&end_date=20240115&station=9414290&datum=MLLW&units=metric&time_zone=gmt&format=json&application=TideLagReplay&product=predictions&interval=6"
+    ],
+    "observed_sha256": "d355d01051e2e9d6c39931ddebf59acb1d94db6b14e71cb78d13c19a0aca4c41",
+    "predicted_sha256": "267f049646e7ae9894db0da5cbc51bf1e8749a27051309551324ae2aeba86a98",
+    "verified_samples": 0,
+    "status": "PRELIMINARY_DATA",
+    "lag_minutes": null,
+    "scores": [],
+    "best_lags_by_half": []
+  }
+}
