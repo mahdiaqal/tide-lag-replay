@@ -1,0 +1,411 @@
+{
+  "network": "StudioNet",
+  "source_commit": "540eeca352e8231a946e7565980cd4dffd585d32",
+  "transactions": [
+    {
+      "step": "deploy",
+      "args": [
+        "deploy",
+        "--contract",
+        "contracts/TideLagReplay.py"
+      ],
+      "signer": "0x7a413BB4AB62E31d62d4cD9efC8C8a8Dae37FB42",
+      "nonce": "0x202",
+      "hash": "0x59ee84017116c3f3cdb8d264f231b85cb4afca846685cd6515d0f857cf5853f5",
+      "receipt": {
+        "hash": "0x59ee84017116c3f3cdb8d264f231b85cb4afca846685cd6515d0f857cf5853f5",
+        "address": "0x771CC54c8Cbf58EDFDD64Fa406d9774aA47a041c",
+        "status": "FINALIZED",
+        "execution": "SUCCESS",
+        "consensus": "MAJORITY_AGREE",
+        "committed": true,
+        "leader_only": false,
+        "initial_validators": 5,
+        "agree_votes": 4,
+        "idle_votes": 1,
+        "disagree_votes": 0,
+        "validator_execution_seen": true
+      }
+    },
+    {
+      "step": "2023-01-15",
+      "args": [
+        "write",
+        "0x771CC54c8Cbf58EDFDD64Fa406d9774aA47a041c",
+        "replay",
+        "--args",
+        "9414290",
+        "2023-01-15"
+      ],
+      "signer": "0x7a413BB4AB62E31d62d4cD9efC8C8a8Dae37FB42",
+      "nonce": "0x203",
+      "hash": "0x09df4e068af9ae76aef05d8b2c17ecf7d84891843d6d7e05135ad64ca7c4df29",
+      "receipt": {
+        "hash": "0x09df4e068af9ae76aef05d8b2c17ecf7d84891843d6d7e05135ad64ca7c4df29",
+        "address": "0x771CC54c8Cbf58EDFDD64Fa406d9774aA47a041c",
+        "status": "FINALIZED",
+        "execution": "SUCCESS",
+        "consensus": "MAJORITY_AGREE",
+        "committed": true,
+        "leader_only": false,
+        "initial_validators": 5,
+        "agree_votes": 3,
+        "idle_votes": 2,
+        "disagree_votes": 0,
+        "validator_execution_seen": true
+      }
+    },
+    {
+      "step": "2025-01-15",
+      "args": [
+        "write",
+        "0x771CC54c8Cbf58EDFDD64Fa406d9774aA47a041c",
+        "replay",
+        "--args",
+        "9414290",
+        "2025-01-15"
+      ],
+      "signer": "0x7a413BB4AB62E31d62d4cD9efC8C8a8Dae37FB42",
+      "nonce": "0x204",
+      "hash": "0xf47c09fb35ab649beb33a03d73c6c37e8bafc992379c68f679330f100b756305",
+      "receipt": {
+        "hash": "0xf47c09fb35ab649beb33a03d73c6c37e8bafc992379c68f679330f100b756305",
+        "address": "0x771CC54c8Cbf58EDFDD64Fa406d9774aA47a041c",
+        "status": "FINALIZED",
+        "execution": "SUCCESS",
+        "consensus": "MAJORITY_AGREE",
+        "committed": true,
+        "leader_only": false,
+        "initial_validators": 5,
+        "agree_votes": 3,
+        "idle_votes": 2,
+        "disagree_votes": 0,
+        "validator_execution_seen": true
+      }
+    },
+    {
+      "step": "2024-01-15",
+      "args": [
+        "write",
+        "0x771CC54c8Cbf58EDFDD64Fa406d9774aA47a041c",
+        "replay",
+        "--args",
+        "9414290",
+        "2024-01-15"
+      ],
+      "signer": "0x7a413BB4AB62E31d62d4cD9efC8C8a8Dae37FB42",
+      "nonce": "0x205",
+      "hash": "0x89f6ce4dcc03afd5cb027fcde42527492aa35920742b5a4f0eee184a31b35639",
+      "receipt": {
+        "hash": "0x89f6ce4dcc03afd5cb027fcde42527492aa35920742b5a4f0eee184a31b35639",
+        "address": "0x771CC54c8Cbf58EDFDD64Fa406d9774aA47a041c",
+        "status": "FINALIZED",
+        "execution": "SUCCESS",
+        "consensus": "MAJORITY_AGREE",
+        "committed": true,
+        "leader_only": false,
+        "initial_validators": 5,
+        "agree_votes": 3,
+        "idle_votes": 2,
+        "disagree_votes": 0,
+        "validator_execution_seen": true
+      }
+    }
+  ],
+  "address": "0x771CC54c8Cbf58EDFDD64Fa406d9774aA47a041c",
+  "source": {
+    "address": "0x771CC54c8Cbf58EDFDD64Fa406d9774aA47a041c",
+    "source_match": true,
+    "sha256": "1f74df6a01008ae9c0713f6499d28a3454101edbd250d7a48449886b54a97640"
+  },
+  "replays": {
+    "2023-01-15": {
+      "id": "f0597ff2d9a01666e1990a7ba800b9ce3c3be3cdc08d59206c0d261cc23b6907",
+      "report": {
+        "best_lags_by_half": [
+          [
+            -18
+          ],
+          [
+            0
+          ]
+        ],
+        "datum": "MLLW",
+        "lag_minutes": null,
+        "observed_sha256": "e82fd60cdf6fa2f6c5d83fd173e3426ec0281ed61a3e3aa711225035c38a1cf3",
+        "predicted_sha256": "b24a56a34b16da963df655750b329affa8436bc9dc07625da7d305ca475394fe",
+        "schema": "tide-lag/1",
+        "scores": [
+          [
+            -60,
+            126898989,
+            287133624
+          ],
+          [
+            -54,
+            98027729,
+            245127209
+          ],
+          [
+            -48,
+            73614801,
+            207531444
+          ],
+          [
+            -42,
+            53863905,
+            174354561
+          ],
+          [
+            -36,
+            38884764,
+            145581244
+          ],
+          [
+            -30,
+            28804520,
+            121264556
+          ],
+          [
+            -24,
+            23723941,
+            101414040
+          ],
+          [
+            -18,
+            23710821,
+            86091440
+          ],
+          [
+            -12,
+            28823189,
+            75291400
+          ],
+          [
+            -6,
+            39109476,
+            69078369
+          ],
+          [
+            0,
+            54535796,
+            67445021
+          ],
+          [
+            6,
+            75107736,
+            70463381
+          ],
+          [
+            12,
+            100789696,
+            78172564
+          ],
+          [
+            18,
+            131522896,
+            90602265
+          ],
+          [
+            24,
+            167216276,
+            107792049
+          ],
+          [
+            30,
+            207749189,
+            129769076
+          ],
+          [
+            36,
+            252998864,
+            156568940
+          ],
+          [
+            42,
+            302851689,
+            188167584
+          ],
+          [
+            48,
+            357029581,
+            224674281
+          ],
+          [
+            54,
+            415377949,
+            266076709
+          ],
+          [
+            60,
+            477678924,
+            312297160
+          ]
+        ],
+        "sources": [
+          "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date=20230115&end_date=20230115&station=9414290&datum=MLLW&units=metric&time_zone=gmt&format=json&application=TideLagReplay&product=water_level",
+          "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date=20230115&end_date=20230115&station=9414290&datum=MLLW&units=metric&time_zone=gmt&format=json&application=TideLagReplay&product=predictions&interval=6"
+        ],
+        "station": 9414290,
+        "status": "DIFFERENT_HALVES",
+        "utc_day": "2023-01-15",
+        "verified_samples": 240
+      }
+    },
+    "2025-01-15": {
+      "id": "fea15ce581e12f579e40f9aa6930d462b9d22c75c8108b4ec219f31864068920",
+      "report": {
+        "best_lags_by_half": [
+          [
+            -6
+          ],
+          [
+            -6
+          ]
+        ],
+        "datum": "MLLW",
+        "lag_minutes": -6,
+        "observed_sha256": "569c876f005ed425d564735b61997f1e46ee23e22a0bfe476aa17ad4df2c6f2a",
+        "predicted_sha256": "233e9a2705bb059001f621822d3f4c6da76823872387fa41d0cffc1b5ca8cf31",
+        "schema": "tide-lag/1",
+        "scores": [
+          [
+            -60,
+            510924064,
+            473859436
+          ],
+          [
+            -54,
+            405920624,
+            381462836
+          ],
+          [
+            -48,
+            313596344,
+            297520145
+          ],
+          [
+            -42,
+            233641784,
+            222701424
+          ],
+          [
+            -36,
+            165968945,
+            157798145
+          ],
+          [
+            -30,
+            110441905,
+            103427629
+          ],
+          [
+            -24,
+            66972916,
+            60342996
+          ],
+          [
+            -18,
+            35485881,
+            29304616
+          ],
+          [
+            -12,
+            15978816,
+            10996409
+          ],
+          [
+            -6,
+            8403744,
+            6097016
+          ],
+          [
+            0,
+            12776840,
+            15302729
+          ],
+          [
+            6,
+            29087044,
+            39256829
+          ],
+          [
+            12,
+            57364764,
+            78607161
+          ],
+          [
+            18,
+            97565540,
+            133942624
+          ],
+          [
+            24,
+            149708160,
+            205851961
+          ],
+          [
+            30,
+            213748061,
+            294818900
+          ],
+          [
+            36,
+            289645036,
+            401330404
+          ],
+          [
+            42,
+            377335584,
+            525738165
+          ],
+          [
+            48,
+            476722620,
+            668447936
+          ],
+          [
+            54,
+            587663845,
+            829733484
+          ],
+          [
+            60,
+            710042156,
+            1009743176
+          ]
+        ],
+        "sources": [
+          "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date=20250115&end_date=20250115&station=9414290&datum=MLLW&units=metric&time_zone=gmt&format=json&application=TideLagReplay&product=water_level",
+          "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date=20250115&end_date=20250115&station=9414290&datum=MLLW&units=metric&time_zone=gmt&format=json&application=TideLagReplay&product=predictions&interval=6"
+        ],
+        "station": 9414290,
+        "status": "CONSISTENT_LAG",
+        "utc_day": "2025-01-15",
+        "verified_samples": 240
+      }
+    },
+    "2024-01-15": {
+      "id": "2f8e3cfdf36526cbf61414ba64b43af4ca8f49e2438b066747a1623e602497e2",
+      "report": {
+        "best_lags_by_half": [],
+        "datum": "MLLW",
+        "lag_minutes": null,
+        "observed_sha256": "d355d01051e2e9d6c39931ddebf59acb1d94db6b14e71cb78d13c19a0aca4c41",
+        "predicted_sha256": "267f049646e7ae9894db0da5cbc51bf1e8749a27051309551324ae2aeba86a98",
+        "schema": "tide-lag/1",
+        "scores": [],
+        "sources": [
+          "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date=20240115&end_date=20240115&station=9414290&datum=MLLW&units=metric&time_zone=gmt&format=json&application=TideLagReplay&product=water_level",
+          "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date=20240115&end_date=20240115&station=9414290&datum=MLLW&units=metric&time_zone=gmt&format=json&application=TideLagReplay&product=predictions&interval=6"
+        ],
+        "station": 9414290,
+        "status": "PRELIMINARY_DATA",
+        "utc_day": "2024-01-15",
+        "verified_samples": 0
+      }
+    }
+  },
+  "unknown_report_reverted": true,
+  "verified": true
+}

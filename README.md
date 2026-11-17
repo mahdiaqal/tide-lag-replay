@@ -5,6 +5,8 @@ tides have the same best-fitting time shift in two halves of a UTC day.
 It records complete comparable score curves and withholds a single lag
 when the halves disagree, optima tie, or any observation is preliminary.
 
+[StudioNet proof matrix](LIVE_PROOFS.md) · [Submission text](SUBMISSION.md)
+
 Anyone can call `replay(station, utc_day)`. The leader and validators fetch
 the six-minute water level and prediction products, both in metres on NOAA's
 MLLW datum and GMT timestamps. They require the requested station in the
